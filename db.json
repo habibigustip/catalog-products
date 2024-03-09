@@ -1,0 +1,32 @@
+{
+  "product": [
+    {
+        "name": "THE SIGNATURE CHAIR",
+        "type": "Armchair",
+        "image": "https://media.istockphoto.com/id/869078270/id/foto/kursi-berlengan-terisolasi-pada-rendering-3d-latar-belakang-putih.jpg?s=612x612&w=0&k=20&c=v7Dp5TD-a06kbeCXERr4Vx6uDY0RmKP145qs4ePElns=",
+        "description": "Sofabed 1 dudukan+chaise, tibbleby orange",
+        "price": "Rp 1.000.000"
+    },
+    {
+        "name": "THE SIGNATURE CHAIR",
+        "type": "Armchair",
+        "image": "https://media.istockphoto.com/id/869080516/id/foto/kursi-berlengan-terisolasi-pada-rendering-3d-latar-belakang-putih.jpg?s=612x612&w=0&k=20&c=CZu1G-ZifR5-BVNt07HPqMASTnX_BQdViTSmbvTjnic=",
+        "description": "Sofabed 2 dudukan+chaise, tibbleby orange",
+        "price": "Rp 1.000.000"
+    },
+    {
+        "name": "THE SIGNATURE CHAIR",
+        "type": "Armchair",
+        "image": "https://media.istockphoto.com/id/869080580/id/foto/kursi-berlengan-terisolasi-pada-rendering-3d-latar-belakang-putih.jpg?s=612x612&w=0&k=20&c=FWUkmvGi9ArPo8NWA4rtRWtf3Sddh0Hcq1dyr6MFveM=",
+        "description": "Sofabed 3 dudukan+chaise lounge, tibbleby blue",
+        "price": "Rp 1.000.000"
+    },
+    {
+        "name": "THE SIGNATURE CHAIR",
+        "type": "Armchair",
+        "image": "https://media.istockphoto.com/id/869080588/id/foto/kursi-berlengan-terisolasi-pada-rendering-3d-latar-belakang-putih.jpg?s=612x612&w=0&k=20&c=9LnNE_5WlaCalrqNH84ouUfEsubAYUGF51zruiyIagU=",
+        "description": "Sofabed 3 dudukan+chaise lounge, tibbleby green",
+        "price": "Rp 1.000.000"
+    }
+]
+}
