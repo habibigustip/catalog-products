@@ -2,8 +2,28 @@
   "products": [
     {
       "id":1,
+      "title":"THE SIGNATURE CHAIR",
+      "price":"Rp12.800.000",
+      "original_price": "Rp16.000.000",
+      "discount_amount": 20,
+      "description":"A good chair should be made of strong durable material. It should also be designed with sufficient padding on the seat and back, especially where the lower back makes contact with the chair. Materials that breathe and dissipate moisture and heat are the best. Armrests help reduce pressure on your lower back.",
+      "category":"Armchair",
+      "image":"https://media.istockphoto.com/id/869080516/id/foto/kursi-berlengan-terisolasi-pada-rendering-3d-latar-belakang-putih.jpg?s=612x612&w=0&k=20&c=CZu1G-ZifR5-BVNt07HPqMASTnX_BQdViTSmbvTjnic=",
+      "thumbnails": [
+        "https://media.istockphoto.com/id/869080516/id/foto/kursi-berlengan-terisolasi-pada-rendering-3d-latar-belakang-putih.jpg?s=612x612&w=0&k=20&c=CZu1G-ZifR5-BVNt07HPqMASTnX_BQdViTSmbvTjnic=",
+        "https://media.istockphoto.com/id/869080580/id/foto/kursi-berlengan-terisolasi-pada-rendering-3d-latar-belakang-putih.jpg?s=612x612&w=0&k=20&c=FWUkmvGi9ArPo8NWA4rtRWtf3Sddh0Hcq1dyr6MFveM=",
+        "https://media.istockphoto.com/id/869080588/id/foto/kursi-berlengan-terisolasi-pada-rendering-3d-latar-belakang-putih.jpg?s=612x612&w=0&k=20&c=9LnNE_5WlaCalrqNH84ouUfEsubAYUGF51zruiyIagU="
+      ],
+      "rating": {
+        "rate":3.9,
+        "count":70
+      }
+    },
+    {
+      "id":2,
       "title":"Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-      "price":109.95,"description":"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "price":"Rp600.000",
+      "description":"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
       "category":"men's clothing",
       "image":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
       "thumbnails": [
@@ -18,17 +38,18 @@
         }
     },
     {
-      "id":2,
+      "id":3,
       "title":"Mens Casual Premium Slim Fit T-Shirts ",
-      "price":22.3,
+      "price":"Rp1.000.000",
+      "original_price": "Rp800.000",
+      "discount_amount": 20,
       "description":"Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
       "category":"men's clothing",
       "image":"https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
       "thumbnails": [
         "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
-        "https://media.istockphoto.com/id/1024667002/id/foto/manusia-standar-tshirt-mockup.jpg?s=612x612&w=0&k=20&c=gIBWngn4cO-2W0lNH3WjV9f4uMZNa0S8FqwVFrX9zDM=",
-        "https://media.istockphoto.com/id/1133387146/id/foto/pria-mengenakan-kaos-biru-kosong-di-latar-belakang-dinding-bata-abu-abu-dengan-ruang-copy.jpg?s=612x612&w=0&k=20&c=SqeiW4I6ywIZrfXCYkyOf7mOvYB4qD43m4UiomJXybA=",
-        "https://media.istockphoto.com/id/1189776426/id/foto/kaos-abu-abu-kosong-di-latar-belakang-kayu-ruang-untuk-teks.jpg?s=612x612&w=0&k=20&c=Zu4Nq4aG_HaRBLvI5gtyGuMKwy_WitIXosdBO54kWYQ="
+        "https://media.istockphoto.com/id/1407279340/id/foto/jaket-bomber-pria-kaos-dan-celana-pendek-olahraga-terisolasi-dengan-latar-belakang-putih.jpg?s=612x612&w=0&k=20&c=kpXTQ3NJv83WN_zL3_8axmYvMBNb9pl7INK3mWnBZXA=",
+        "https://media.istockphoto.com/id/1400571172/id/foto/jaket-bomber-pria-kaos-dan-celana-pendek-olahraga-terisolasi-dengan-latar-belakang-putih.jpg?s=612x612&w=0&k=20&c=FMZgzqxcyvaOCID8U-RHIxAx8usufD_A6a2n6AdRz8Y="
       ],
       "rating": {
         "rate":4.1,
@@ -36,9 +57,11 @@
       }
     },
     {
-      "id":3,
+      "id":4,
       "title":"Mens Cotton Jacket",
-      "price":55.99,
+      "price":"Rp9.000.000",
+      "original_price": "Rp10.000.000",
+      "discount_amount": 10,
       "description":"great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
       "category":"men's clothing",
       "image":"https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
@@ -54,9 +77,9 @@
       }
     },
     {
-      "id":4,
+      "id":5,
       "title":"Mens Casual Slim Fit",
-      "price":15.99,
+      "price":"Rp300.000",
       "description":"The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
       "category":"men's clothing",
       "image":"https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
@@ -72,9 +95,9 @@
       }
     },
     {
-      "id":5,
+      "id":6,
       "title":"John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
-      "price":695,
+      "price":"Rp15.000.000",
       "description":"From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
       "category":"jewelery",
       "image":"https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
@@ -89,9 +112,9 @@
       }
     },
     {
-      "id":6,
+      "id":7,
       "title":"Solid Gold Petite Micropave",
-      "price":168,
+      "price":"Rp7.000.000",
       "description":"Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
       "category":"jewelery",
       "image":"https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
@@ -106,26 +129,9 @@
       }
     },
     {
-      "id":7,
-      "title":"THE SIGNATURE CHAIR",
-      "price":168,
-      "description":"A good chair should be made of strong durable material. It should also be designed with sufficient padding on the seat and back, especially where the lower back makes contact with the chair. Materials that breathe and dissipate moisture and heat are the best. Armrests help reduce pressure on your lower back.",
-      "category":"Armchair",
-      "image":"https://media.istockphoto.com/id/869080516/id/foto/kursi-berlengan-terisolasi-pada-rendering-3d-latar-belakang-putih.jpg?s=612x612&w=0&k=20&c=CZu1G-ZifR5-BVNt07HPqMASTnX_BQdViTSmbvTjnic=",
-      "thumbnails": [
-        "https://media.istockphoto.com/id/869080516/id/foto/kursi-berlengan-terisolasi-pada-rendering-3d-latar-belakang-putih.jpg?s=612x612&w=0&k=20&c=CZu1G-ZifR5-BVNt07HPqMASTnX_BQdViTSmbvTjnic=",
-        "https://media.istockphoto.com/id/869080580/id/foto/kursi-berlengan-terisolasi-pada-rendering-3d-latar-belakang-putih.jpg?s=612x612&w=0&k=20&c=FWUkmvGi9ArPo8NWA4rtRWtf3Sddh0Hcq1dyr6MFveM=",
-        "https://media.istockphoto.com/id/869080588/id/foto/kursi-berlengan-terisolasi-pada-rendering-3d-latar-belakang-putih.jpg?s=612x612&w=0&k=20&c=9LnNE_5WlaCalrqNH84ouUfEsubAYUGF51zruiyIagU="
-      ],
-      "rating": {
-        "rate":3.9,
-        "count":70
-      }
-    },
-    {
       "id":8,
       "title":"Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
-      "price":109,
+      "price":"Rp500.000",
       "description":"3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks.",
       "category":"electronics",
       "image":"https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
@@ -140,7 +146,7 @@
     {
       "id":9,
       "title":"WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
-      "price":114,
+      "price":"Rp2.400.000",
       "description":"Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
       "category":"electronics",
       "image":"https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
@@ -155,7 +161,7 @@
     {
       "id":10,
       "title":"Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
-      "price":599,
+      "price":"Rp2.100.000",
       "description":"21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors.",
       "category":"electronics",
       "image":"https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
