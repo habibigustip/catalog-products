@@ -1,0 +1,248 @@
+.product-detail-header {
+  &-container {
+    background-color: $primary;
+  }
+  &-wrapper {
+    padding: 20px;
+  }
+  &-content {
+    text-align: center;
+    &-heading {
+      font-size: 2rem;
+      font-weight: bold;
+      margin: 0.5rem 0;
+    }
+    &-desc {
+      margin: 0.5rem 0;
+    }
+  }
+}
+
+.product-detail-body {
+  &-container {
+    margin: 0 auto;
+    padding: 16px 0;
+    max-width: 1120px;
+    min-height: 610px;
+
+    @media only screen and (max-width: 768px) {
+      padding: 16px;
+    }
+  }
+  &-wrapper {
+    padding: 20px;
+  }
+  &-breadcrumb {
+    margin: 0 10px;
+    padding: 10px 0;
+    list-style: none;
+
+    &-item {
+      display: inline;
+      font-size: 14px;
+    }
+    &-item+&-item:before {
+      padding: 8px;
+      color: black;
+      content: "/\00a0";
+    }
+    &-item a {
+      color: black;
+      text-decoration: none;
+    }
+    &-item a:hover {
+      color: #639a76;
+    }
+  } 
+}
+
+.gallery-product {
+  &-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  &-wrapper {
+    position: relative;
+    margin: 0 auto;
+    min-width: 30%;
+
+    /* Hide the images by default */
+    .img-preview-slides {
+      display: none;
+
+      .numbertext {
+        color: darkgray;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+      .img-preview {
+        width: 100%;
+        object-fit: contain;
+        background-position: center center;
+        height: 200px;
+      }
+    }
+
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 40%;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      background-color: rgba(197, 235, 170, 0.8);
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 20%;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    .next {
+      right: 0;
+    }
+
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(197, 235, 170, 1);
+    }
+
+    .row {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .img-thumbnail {
+      width: 100%;
+      height: 76px;
+      object-fit: contain;
+    }
+    
+    .column {
+      width: 18%;
+      padding: 4px;
+      border: solid 1px $primary;
+      border-radius: 8px;
+    
+      .demo {
+        opacity: 0.6;
+      }
+    
+      .active,
+      .demo:hover {
+        opacity: 1;
+      }
+    }
+
+    .cursor {
+      cursor: pointer;
+    }
+  }
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.info-product {
+  &-wrapper {
+    width: 50%;
+    @media only screen and (max-width: 768px) {
+      width: 100%;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 1.15rem;
+      margin: 0.8rem 0;
+    }
+    .price {
+      font-size: 1.5rem;
+      font-weight: bold;
+
+      &-wrapper {
+        margin: 0.8rem 0;
+      }
+    }
+    .discount-wrapper {
+      display: flex;
+      align-items: center;
+      margin: 4px 0;
+      @media only screen and (max-width: 768px) {
+        justify-content: center;
+      }
+
+      .discount-amount {
+        &-wrapper {
+          padding: 2px 4px;
+          background-color: pink;
+          border-radius: 4px 
+        }
+        &-value {
+          font-size: 0.7rem;
+          font-weight: bold;
+          color: red;
+        }
+      }
+      .original-price {
+        &-wrapper {
+          margin: 0 5px;
+        }
+        &-amount {
+          text-decoration: line-through;
+          color: darkgray;
+        }
+      }
+    }
+
+    .description-product {
+      &-wrapper {
+        width: 70%;
+        line-height: 1.2;
+        margin: 0.8rem 0;
+
+        @media only screen and (max-width: 768px) {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.btn-add-to-cart {
+  width: 200px;
+  margin: 0 10px;
+  padding: 10px;
+  background-color: #70ae85;
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+
+.add-to-cart {
+  &-wrapper {
+    width: 70%;
+    text-align: center;
+
+    @media only screen and (max-width: 768px) {
+      width: 100%;
+    }
+  }
+}
